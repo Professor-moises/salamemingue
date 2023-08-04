@@ -84,6 +84,7 @@ h2, h3, h4{
 header{
     margin: 40px;
     margin-top: 100px;
+
     display: flex;
     justify-content:space-evenly;
     align-items: center;
@@ -128,7 +129,13 @@ header{
 /* ---------------------- INICIO DO MAIN ---------------------- */
 
 .home main{
-    margin: 0 30px;
+    background-color: #887962;
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+    /* margin: 0 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -139,8 +146,7 @@ header{
     width: 70%;
     margin: 0 auto;
     padding: 30px;
-    margin-bottom: 40px;
-}
+    margin-bottom: 40px; */
 
 .home main h1{
     margin-bottom: 30px;
@@ -151,6 +157,8 @@ header{
 .home main p{
     line-height: 1.5rem;
     text-align: center;
+    font-style: oblique;
+    margin-bottom: 10px;
 }
 
 strong{
@@ -253,7 +261,7 @@ footer{
 }
 
 
-/* ------------------ MEDIA QUERY --------------------- */
+/* -------------- MEDIA QUERY  para colocar o logo em 1 --------------- */
 
 @media screen and (max-width: 600px)
 {
@@ -277,24 +285,24 @@ footer{
     }
 }
 
-/* ----------------PAG SOBRE--------------- */
+/* ----------------INICIO PAGINA SOBRE--------------- */
 
-.body-sobre main h1{
+.sobre main h1{
     margin-bottom: 30px;
     text-align: center;
     color:#534a3d;
 }
 
-.header-sobre{
+.sobre header{
     margin-top: 100px;
 }
 
-.main-sobre{
+.sobre main{
     padding: 20px;
     margin: 0 25px 25px 25px;
 }
 
-.main-sobre .cards{
+.sobre .cards{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -302,18 +310,18 @@ footer{
     gap: 20px;
 }
 
-.main-sobre article{
+.sobre main article{
     max-width: 900px;
     /* padding: 10px; */
     line-height: 1.7em;
     text-align: justify;
 }
 
-.main-sobre article h2{
+.sobre main article h2{
     padding: 10px;
     background-color: #ecd3ad;
 }
-.main-sobre article h3{
+.sobre main article h3{
     padding: 7px 0;
     margin-top: 15px;
 
@@ -327,7 +335,7 @@ hr{
     text-align: center;
 }
 
-/* -----------------INICIO CONTATO -------------------- */
+/* -----------------INICIO PAGINA DE CONTATO -------------------- */
 
 .contato{
     display: flex;
@@ -337,7 +345,7 @@ hr{
 }
 
 header{
-    min-width: 325px;
+    min-width: 315px;
 }
 
 .mapa{
