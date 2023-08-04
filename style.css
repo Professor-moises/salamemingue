@@ -336,6 +336,10 @@ hr{
     align-items: center;
 }
 
+header{
+    min-width: 325px;
+}
+
 .mapa{
     padding: 30px;
 }
