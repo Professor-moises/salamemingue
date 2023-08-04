@@ -267,9 +267,15 @@ footer{
     background-color: #DFD8C6;
 }
 
+#ativo{
+    color: #644733;
+    background-color: #DFD8C6;
+}
+
 #informacao{
     text-align: center;
     margin: 10px 0 30px 0;
+    color: black;
 }
 
 
@@ -328,17 +334,26 @@ footer{
     max-width: 900px;
     /* padding: 10px; */
     line-height: 1.7em;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .sobre main article h2{
     padding: 10px;
     background-color: #ecd3ad;
 }
+
 .sobre main article h3{
     padding: 7px 0;
     margin-top: 15px;
+    text-align: left;
+    margin-left: 15px;
+}
 
+.sobre main article p{
+    padding: 7px 0;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-left: 30px;
 }
 
 hr{
@@ -351,11 +366,21 @@ hr{
 
 /* -----------------INICIO PAGINA DE CONTATO -------------------- */
 
-main{
-    margin: 0 auto;
-}
-
 .mapa{
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+.contato main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato main img{
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
 }
