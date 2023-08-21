@@ -10,6 +10,10 @@
     font-weight: 100;
 }
 
+img{
+    width: 100%;
+}
+
 body.home{
     background: rgb(203,186,171);
     background: linear-gradient(90deg, rgba(203,186,171,1) 50%, rgba(234,216,209,1) 50%);
@@ -115,6 +119,10 @@ header{
 
 .quarenta_anos{
     order: 3;
+}
+
+.quarenta_anos img{
+    width: 100%;
 }
 
 .logo img{
