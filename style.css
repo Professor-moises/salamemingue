@@ -15,6 +15,10 @@ body.home{
     background: linear-gradient(90deg, rgba(203,186,171,1) 50%, rgba(234,216,209,1) 50%);
 }
 
+strong{
+    font-weight: 600;
+}
+
 /* ----------------WHATSAPP ---------------- */
 
 .whatsapp {
@@ -92,20 +96,30 @@ header{
 }
 
 .menino{
-    order: 3;
+    order: 1;
 }
 
 .menina{
-    order: 1;
+    order: 3;
 }
 
 .logo{
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 5px;
+    align-self: baseline;
+    gap: 2px;
     order: 2;
     margin: 20px 20px;
+}
+
+.quarenta_anos{
+    order: 3;
+}
+
+.logo img{
+    width: 300px;
+    height: auto;
 }
 
 .logo a.socialmedia {
@@ -128,7 +142,7 @@ header{
     box-shadow: -1px -1px 0px #887962;
 }
 
-/* ---------------------- INICIO DO MAIN ---------------------- */
+/* ---------------------- INICIO DA PAGINA HOME ---------------------- */
 
 .home main{
     background-color: #887962;
@@ -163,8 +177,90 @@ header{
     margin-bottom: 10px;
 }
 
-strong{
-    font-weight: 600;
+/* ----------------INICIO PAGINA SOBRE--------------- */
+
+.sobre main h1{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #887962;
+
+}
+
+.sobre header{
+    margin-top: 100px;
+}
+
+.sobre main{
+    padding: 20px;
+    margin: 0 25px 25px 25px;
+}
+
+.sobre .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre main article{
+    max-width: 900px;
+    /* padding: 10px; */
+    line-height: 1.7em;
+    /* text-align: justify; */
+}
+
+.sobre main article h2{
+    padding: 10px;
+    background-color: #ecd3ad;
+}
+
+.sobre main article h3{
+    padding: 7px 0;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.sobre main article p{
+    padding: 7px 0;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-left: 30px;
+}
+
+hr{
+    border: .5px solid rgba(0, 0, 0, 0.138);
+}
+
+.center{
+    text-align: center;
+}
+
+/* -----------------INICIO PAGINA DE CONTATO -------------------- */
+
+.mapa{
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.contato main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato main img{
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+}
+
+.contato_enfeite{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* ----------------------- PARCEIROS ------------------------- */
@@ -305,82 +401,3 @@ footer{
     }
 }
 
-/* ----------------INICIO PAGINA SOBRE--------------- */
-
-.sobre main h1{
-    margin-bottom: 30px;
-    text-align: center;
-    color:#534a3d;
-}
-
-.sobre header{
-    margin-top: 100px;
-}
-
-.sobre main{
-    padding: 20px;
-    margin: 0 25px 25px 25px;
-}
-
-.sobre .cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.sobre main article{
-    max-width: 900px;
-    /* padding: 10px; */
-    line-height: 1.7em;
-    /* text-align: justify; */
-}
-
-.sobre main article h2{
-    padding: 10px;
-    background-color: #ecd3ad;
-}
-
-.sobre main article h3{
-    padding: 7px 0;
-    margin-top: 15px;
-    text-align: left;
-    margin-left: 15px;
-}
-
-.sobre main article p{
-    padding: 7px 0;
-    margin-top: 10px;
-    color: rgba(0, 0, 0, 0.9);
-    margin-left: 30px;
-}
-
-hr{
-    border: .5px solid rgba(0, 0, 0, 0.138);
-}
-
-.folha{
-    text-align: center;
-}
-
-/* -----------------INICIO PAGINA DE CONTATO -------------------- */
-
-.mapa{
-    margin: 0 auto;
-    padding: 20px;
-    width: 100%;
-}
-
-.contato main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contato main img{
-    max-width: 900px;
-    margin: 0 auto;
-    display: block;
-}
