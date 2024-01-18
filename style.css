@@ -112,7 +112,6 @@ header {
     order: 3;
     width: 200px;
     margin-right: 120px;
-
 }
 
 .logo {
@@ -123,10 +122,6 @@ header {
     gap: 2px;
     order: 2;
     margin: 20px 20px;
-}
-
-.quarenta_anos {
-    /* order: 3; */
 }
 
 .quarenta_anos img {
@@ -207,10 +202,6 @@ header {
     text-align: center;
     color: #887962;
 
-}
-
-.sobre header {
-    margin-top: 100px;
 }
 
 .sobre main {
