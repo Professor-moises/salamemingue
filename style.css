@@ -103,7 +103,6 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
-
 .nene {
     order: 1;
 }
@@ -113,6 +112,24 @@ header {
     width: 200px;
     margin-right: 120px;
 }
+
+.nene2 {
+    order: 1;
+}
+
+.bebe2 {
+    order: 3;
+    /* width: 200px; */
+    margin-right: 18px;
+}
+
+.roupa{
+    order: 1;
+}
+.roupa2{
+    order: 3;
+}
+
 
 .logo {
     display: flex;
