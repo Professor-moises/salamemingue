@@ -123,13 +123,6 @@ header {
     margin-right: 18px;
 }
 
-.roupa{
-    order: 1;
-}
-.roupa2{
-    order: 3;
-}
-
 
 .logo {
     display: flex;
