@@ -212,7 +212,6 @@ header {
 /* ----------------INICIO PAGINA SOBRE--------------- */
 
 .oculto {
-    visibility: hidden;
     display: none;
 }
 
