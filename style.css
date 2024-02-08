@@ -76,6 +76,10 @@ nav span {
     color: #ecd3ad;
 }
 
+.bold{
+    font-weight: 700;
+}
+
 /* ----------------- INICIO DO HEADER -------------- */
 
 h1 {
